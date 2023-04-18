@@ -1,4 +1,4 @@
-name: zemspace
+name: tf2
 channels:
   - conda-forge
   - defaults
