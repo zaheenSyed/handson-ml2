@@ -30,6 +30,7 @@ transformers~=4.11.3
 tensorflow~=2.6.0
 # Optional: the TF Serving API library is just needed for chapter 19.
 tensorflow-serving-api~=2.6.0 # or tensorflow-serving-api-gpu if gpu
+# tensorflow-serving-api-gpu
 
 tensorboard~=2.7.0
 tensorboard-plugin-profile~=2.5.0
@@ -47,7 +48,9 @@ tensorflow-addons~=0.14.0
 
 # There are a few dependencies you need to install first, check out:
 # https://github.com/openai/gym#installing-everything
-gym[Box2D,atari,accept-rom-license]~=0.21.0
+# gym[all]~=0.21.0
+# gym[all]
+
 
 # WARNING: on Windows, installing Box2D this way requires:
 # * Swig: http://www.swig.org/download.html
@@ -59,8 +62,8 @@ tf-agents~=0.10.0
 ##### Image manipulation
 Pillow~=8.4.0
 graphviz~=0.17
-opencv-python~=4.5.3.56
-pyglet~=1.5.21
+# opencv-python~=4.5.3.56
+# pyglet~=1.5.21
 
 #pyvirtualdisplay # needed in chapter 18, if on a headless server
                   # (i.e., without screen, e.g., Colab or VM)
