@@ -21,4 +21,5 @@ datasets/spam
 datasets/words
 datasets/jsb_chorales
 aInfo/*
+.data_zaheen/
 
